@@ -34,7 +34,7 @@ for line in sys.stdin:
 
     #Exercise 3: Error is raised when there are not six elements in the tulpe           
     if len(data) != 6:                                                                                                                                                  print("ERROR: not six elements in a tulpe")
-
+        raise ValueError ('Error')
     # Write the key-value combination to standard output (stdout)
     # Key is the category, value is the sales     
     # With a tab (\t) between key and value
